@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F773F3FE1C23AB7100DE6FD3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773F3FD1C23AB7100DE6FD3 /* main.swift */; };
+		F773F4051C23ABA100DE6FD3 /* TEA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773F4041C23ABA100DE6FD3 /* TEA.swift */; };
+		F773F4071C23B1A400DE6FD3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F773F4061C23B1A400DE6FD3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		F773F3FA1C23AB7100DE6FD3 /* TEA-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TEA-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F773F3FD1C23AB7100DE6FD3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F773F4041C23ABA100DE6FD3 /* TEA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TEA.swift; sourceTree = "<group>"; };
+		F773F4061C23B1A400DE6FD3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 		F773F3F11C23AB7100DE6FD3 = {
 			isa = PBXGroup;
 			children = (
+				F773F4061C23B1A400DE6FD3 /* README.md */,
 				F773F3FC1C23AB7100DE6FD3 /* TEA-Swift */,
 				F773F3FB1C23AB7100DE6FD3 /* Products */,
 			);
@@ -58,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				F773F3FD1C23AB7100DE6FD3 /* main.swift */,
+				F773F4041C23ABA100DE6FD3 /* TEA.swift */,
 			);
 			path = "TEA-Swift";
 			sourceTree = "<group>";
@@ -119,6 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F773F4071C23B1A400DE6FD3 /* README.md in Sources */,
+				F773F4051C23ABA100DE6FD3 /* TEA.swift in Sources */,
 				F773F3FE1C23AB7100DE6FD3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
